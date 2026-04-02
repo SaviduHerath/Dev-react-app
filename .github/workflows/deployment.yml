@@ -18,7 +18,7 @@ jobs:
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
             set -e
-            cd /home/ubuntu/my-react-app
+            cd /home/ubuntu/Dev-react-app
             git pull origin master
             npm install
             npm run build
